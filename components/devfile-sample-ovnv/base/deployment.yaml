@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ovnv
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:NadGX-devfile-sample-ovnv
+      - image: quay.io/redhat-appstudio/user-workload@sha256:2f66fb9d1681b81656ad06c906c8d6693021ed433562a7d0fe33927067b72002
         name: my-nodejs
         ports:
         - containerPort: 3001
